@@ -1,0 +1,11 @@
+<script>
+    batteryCharge = 80 //80%
+    FULL_BATTERY = 100
+    chargePercentInMinutes = 9 //9min=1%
+    chargePercentInHour=60
+
+    etWorkInMinutes = (batteryCharge * chargePercentInMinutes) / chargePercentInHour
+
+    alert("Remaining time in hour \n" + etWorkInMinutes + "h")
+
+</script>
